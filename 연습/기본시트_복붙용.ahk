@@ -10,13 +10,8 @@ DetectHiddenWindows, On
 ; shift : +
 ; Win : #
 
-^+1::
-Send, eland19030.
-return
+F2::
+Pause
 
-^+2::
-Send, 08029622aA{!}
-return
-
-^F4::
+F4::
 ExitApp

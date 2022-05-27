@@ -4,8 +4,6 @@ SetTitleMatchMode, 2
 SetTitleMatchMode, slow
 DetectHiddenWindows, On
 
-pwsd = 1234
-
 F1::
 CoordMode, mouse, screen
 CoordMode, Pixel, screen
@@ -21,7 +19,7 @@ if errorlevel = 0
 Sleep, 500
 MouseClick, l, % XX + 70, % YY +40
 Sleep, 500
-SendInput, %pwsd%
+SendInput, eland19030{!}
 Sleep, 500
 ImageSearch, XX, YY, -1280, 0, 1920, 1080, C:\Users\lee_donghun03\Desktop\AUTO\auto\·Î±×ÀÎ.png
 Sleep, 500
